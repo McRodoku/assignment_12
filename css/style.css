@@ -1,19 +1,30 @@
 body{
-    font-family: 'Roboto';
-    font-style: normal;
+  font-family: 'Arial';
+  font-style: normal;
+  text-align: center;
 }
 
 header{
-    position: fixed;
-    background-color: black;
-    font-family: 'Roboto';
-    font-style: medium;
-    color: white;
-    font-variant: small-caps;
-    text-align: left;
-    margin: 0;
-    height: 2.5em;
-    width: 100%;
+  background-color: #0000FF;
+  font-family: 'Courier New', monospace;
+  color: #FFFF00;
+  text-align: center;
+  margin: 1;
+  height: 3em;
+}
+
+h1 {
+  color: Brown;
+  font-family: 'Verdana';
+  font-size: 100px;
+}
+        
+h2 {
+  color: DarkOrange;
+  font-family: 'Verdana';
+  font-size: 50px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
 }
 
 .menu-item{
