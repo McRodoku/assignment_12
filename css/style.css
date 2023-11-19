@@ -1,0 +1,58 @@
+body{
+  font-family: 'Arial';
+  font-style: normal;
+  text-align: center;
+}
+
+header{
+  background-color: #0000FF;
+  font-family: 'Courier New', monospace;
+  color: #FFFF00;
+  text-align: center;
+  margin: 1;
+  height: 3em;
+}
+
+.menu-item{
+  display: inline-block;
+  margin: 1 1;
+  min-width: 4em;
+  text-align: center;
+  background-color: #FFFFF0;
+  padding: 1em 1;
+}
+
+.menu-item: hover{
+  background-color: #00FFFF;
+}
+
+.dropdown{
+  display: inline-block;
+  margin:1 1;
+  min-width: 4em;
+  text-align: center;
+  background-color: #696969;
+  padding: 0 0;
+}
+
+.dropdown-content{
+  position: absolute;
+  border: .5px solid #000000;
+  margin: .5em;
+  margin-top: .5em;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: .5em;
+  min-width: 4em;
+}
+  
+  
