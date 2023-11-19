@@ -13,6 +13,20 @@ header{
   height: 3em;
 }
 
+h1 {
+  color: Brown;
+  font-family: 'Verdana';
+  font-size: 100px;
+}
+        
+h2 {
+  color: DarkOrange;
+  font-family: 'Verdana';
+  font-size: 50px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
+
 .menu-item{
   display: inline-block;
   margin: 1 1;
