@@ -68,5 +68,8 @@ h2 {
   padding: .5em;
   min-width: 4em;
 }
-  
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #baf0ef;
+    background-color: #a2a2a2;
   
