@@ -9,6 +9,9 @@ header{
   font-family: 'Courier New', monospace;
   color: #FFFF00;
   text-align: center;
+  border: 2px black solid;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
   margin: 1;
   height: 3em;
 }
@@ -31,25 +34,7 @@ h2 {
   padding-bottom: 2px;
 }
 
-.menu-item{
-    display: inline-block;
-    margin: 0 0;
-    min-width: 8em;
-    text-align: center;
-    background-color: #26272b;
-    padding: 0.5em 0;
-}
 
-/* Style the links: */
-.menu-item a {
-    color: #fff;
-    text-decoration: none;
-}
-.menu-item:hover {
-    background-color: #1CCDCA;
-}
-
-/* Add a dropdown feature: */
 .dropdown {
     display: inline-block;
     margin: 0 0;
@@ -79,29 +64,19 @@ h2 {
     display: block;
 }
 
-/* Style dropdown item display: */
+
 .dropdown-item {
     display: block;
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 0.5em;
     min-width: 7em;
 }
 .dropdown-item:hover, .dropdown-item:hover a {
-    color: #baf0ef;
-    background-color: #a2a2a2;
+    color: #FFFAF0;
+    background-color: #FFFAF0;
 }
 
-.mainimage {
-    float: left;
-}
-
-.directionImage {
-    float: right;
-    width: 400px;
-    height: 200px;
-    margin: 0 0 0 80px;
-}
 
 .direction {
     height: 200px;
