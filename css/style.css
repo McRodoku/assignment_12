@@ -5,7 +5,7 @@ body{
 }
 
 header{
-  background-color: #FFFAF0;
+  background-color: #FAFAD2;
   font-family: 'Verdana', monospace;
   color: #FFFF00;
   text-align: center;
@@ -17,7 +17,7 @@ header{
 }
 
 h1 {
-  background-color: #FFFAF0;
+  background-color: #FAFAD2;
   color: Brown;
   font-family: 'Verdana';
   font-size: 100px;
@@ -27,7 +27,7 @@ h1 {
 }
         
 h2 {
-  background-color: #FFFAF0;
+  background-color: #FAFAD2;
   color: DarkOrange;
   font-family: 'Verdana';
   font-size: 50px;
@@ -56,7 +56,7 @@ h2 {
     margin: 0;
     margin-top: 0.5em;
     color: #000;
-    background-color: #fff;
+    background-color: #FAFAD2;;
     z-index: 1;
 }
 .dropdown-content a {
@@ -76,14 +76,14 @@ h2 {
 }
 .dropdown-item:hover, .dropdown-item:hover a {
     color: #FFFAF0;
-    background-color: #FFFAF0;
+    background-color: #FAFAD2;
 }
 
 
 .direction {
     height: 150px;
     width: 50%;
-    background-color: #FFFAF0;
+    background-color: #FAFAD2;
     border-radius: auto;
     margin: auto;
     padding: .5em;
