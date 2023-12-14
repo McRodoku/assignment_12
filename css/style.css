@@ -6,7 +6,7 @@ body{
 
 header{
   background-color: #FFFAF0;
-  font-family: 'Courier New', monospace;
+  font-family: 'Verdana', monospace;
   color: #FFFF00;
   text-align: center;
   border: 2px black solid;
@@ -17,6 +17,7 @@ header{
 }
 
 h1 {
+  background-color: #FFFAF0;
   color: Brown;
   font-family: 'Verdana';
   font-size: 100px;
@@ -26,6 +27,7 @@ h1 {
 }
         
 h2 {
+  background-color: #FFFAF0;
   color: DarkOrange;
   font-family: 'Verdana';
   font-size: 50px;
@@ -81,7 +83,7 @@ h2 {
 .direction {
     height: 150px;
     width: 50%;
-    background-color:#a2a2a2;
+    background-color: #FFFAF0;
     border-radius: auto;
     margin: auto;
     padding: .5em;
